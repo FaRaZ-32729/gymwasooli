@@ -21,7 +21,7 @@ const Navbar = () => {
     return (
         <header
             className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScroll
-                ? "backdrop-blur-lg bg-white/80 shadow-md"
+                ? "backdrop-blur-lg bg-[#1E2939] shadow-md"
                 : "bg-transparent"
                 }`}
         >
@@ -36,7 +36,7 @@ const Navbar = () => {
                 </NavLink>
 
                 {/* Desktop Menu */}
-                <ul className="hidden md:flex items-center gap-x-8 font-medium text-gray-700">
+                <ul className="hidden md:flex items-center gap-x-8 font-medium text-white">
                     <li>
                         <NavLink
                             to="/"
@@ -73,7 +73,7 @@ const Navbar = () => {
                             className="bg-gradient-to-r from-[#ED563B] to-[#ED563B] text-white px-5 py-2 
                             rounded-full shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300"
                         >
-                            Request A Demo
+                            Become A Member
                         </NavLink>
                     </li>
                 </ul>
